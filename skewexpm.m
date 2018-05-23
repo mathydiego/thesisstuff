@@ -1,5 +1,5 @@
-function eS = skewsymexpm(S)
-% SKEWSYMEXPM(S) computes the exponential of a real skew-symmetric matrix 
+function eS = skewexpm(S)
+% SKEWEXPM(S) computes the exponential of a real skew-symmetric matrix 
 % up to size 9 using the formulas from Diego Avalos's thesis.
 % See also expm.
 [n, m] = size(S);
